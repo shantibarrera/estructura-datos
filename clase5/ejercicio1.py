@@ -1,2 +1,3 @@
-"""Eliminar Dato de Nodo"""
-"""Eliminar el Nodo que el usuario quiera"""
+"""Eliminar Dato de Nodo y eliminar el nodo que quiera"""
+
+
