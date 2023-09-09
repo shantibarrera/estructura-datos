@@ -15,5 +15,6 @@ def lista(nodos):
 #Se le pide al usuario el número de nodos que desea crear
 nodos = int(input("Ingrese el número de nodos a crear: "))
 lista_final = lista(nodos)
+
 #Imprime la lista con los nodos generados
 print("Lista generada:", lista_final)
