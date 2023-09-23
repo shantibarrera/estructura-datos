@@ -30,5 +30,5 @@ def desencolar():
 
 @app.get("/ver_todos")
 def ver_todos():
-    elementos = cola.ver_listado()
-    return {"status": "ok", "elementos": elementos}
+    elemento = cola.ver_listado
+    return {"status": "ok", "elementos": elemento}
