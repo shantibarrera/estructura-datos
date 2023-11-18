@@ -17,13 +17,6 @@ def evaluar_terreno(x, y):
     trazabilidad = pd.DataFrame({'x': x, 'y': y})
 
     # Visualizar datos y resultados
-    plt.scatter(x, y, label='Datos del terreno')
-    plt.plot(x, 2 * x + 1, label='Valor esperado', color='r')
-    plt.xlabel('Característica del terreno')
-    plt.ylabel('Aptitud para construcción')
-    plt.title('Evaluación de terreno para construcción')
-    plt.legend()
-    plt.show()
 
     return trazabilidad, confiabilidad, precision
 
