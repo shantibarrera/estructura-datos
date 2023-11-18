@@ -1,34 +1,23 @@
-import random
-
-class Nodo:
+class nodo:
     dato = None
     apuntador = None
-    def __init__(self, dato, apuntador):
-        self.dato = dato 
+    def __init__(self,dato,apuntador):
+        self.dato = dato
         self.apuntador = apuntador
-
-    def __str__(self):  
+    def __str__(self):
         return f"{self.dato}"
-    
-def lista_nodos(n):
-    if n == 0:
-        return [n]
-    else:
-        return lista_nodos
-    
-def lista_random(n):
-    lista = [n] * n
-    for i in range (n):
-        lista[i] = random.random()
-    return lista
 
-n = input("Digite el número de nodos que desea crear: ")
-print(lista_nodos(4))
-aleatorios = lista_random(n)
-print(aleatorios)
-
-
-
-
-
-
+#print ("-"*45)
+#op1 = 8
+#op2 = 9
+#print (op1 == op2)
+print ("-"*45)
+print ("Verificacion por nodo de un numero")
+print ("_"*45)
+obj1 = nodo(20,None)
+obj2 = nodo(20,None)
+print (obj1)
+print (obj2)
+print ("_"*45)
+print (obj1 == obj2)
+print ("-"*45)
